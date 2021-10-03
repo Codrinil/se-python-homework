@@ -6,3 +6,7 @@
         Veti primi: 2 si 3
         Veti printa: 8
 """
+x = input()
+y = input()
+z = int(x) ** int(y)
+print(z)

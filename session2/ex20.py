@@ -16,3 +16,9 @@
             2: 'i'
         }
 """
+# string = input()
+# letters = list(string)
+# for x in enumerate(letters):
+#     print(x)
+
+string = input()

@@ -18,3 +18,9 @@ d1[2] = 'CMI'
 
 # Afisam dictionarul dupa schimbare
 print(d1)
+
+
+d1 = {1: 'CMI', 2: 'CMI2'}
+print(d1)
+d1[3] = (f'CMI3')
+print(d1)

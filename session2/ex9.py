@@ -12,5 +12,10 @@ x = int(x)
 # Vom printa toate numerele intregi de la 0 pana la x (primit de la tastatura)
 # functia range(x) ne va intoarce lista de elemente intregi [0, 1, 2, .., x]
 # Iteram prin toate elementele listei oferite de functia range()
+##count = 0
 for i in range(x):
-    print(i)
+  # daca partea ramasa din impartirea lui 1 la 2 este 0 estre numar par
+    if i % 2 == 0:
+      ##  count += 1
+        print(i)
+##print(f" We have {count} even numbers from 0 to {x}")
