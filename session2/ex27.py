@@ -7,3 +7,12 @@
         Veti primi: 5
         Veti printa: 'ashdj' (poate fi orice alt string)
 """
+
+import random
+import string
+
+
+numar = int(input())
+string_aleator = string.ascii_lowercase
+print(''.join(random.choice(string_aleator)
+              for i in range(numar)))

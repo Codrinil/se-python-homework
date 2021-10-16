@@ -13,4 +13,6 @@ l2 = [5, 6, 7]
 # Afisam listele l1 si l2 separat.
 # Pentru a vedea rezultatul, rulati acest script.
 print(f"{l1} {l2}")
-print(l1, l2)
+concatenate = l1 + l2
+print(concatenate)
+""" Nu am inteles exact forma dorita din enunt."""

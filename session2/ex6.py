@@ -15,12 +15,7 @@ print(d1)
 
 # Schimbam valoarea de la cheia 2, din 'CMI2' in 'CMI'
 d1[2] = 'CMI'
+d1[3] = 'CMI3'
 
 # Afisam dictionarul dupa schimbare
-print(d1)
-
-
-d1 = {1: 'CMI', 2: 'CMI2'}
-print(d1)
-d1[3] = (f'CMI3')
 print(d1)

@@ -14,3 +14,11 @@
         Veti primi: 1232
         Veti printa: False
 """
+n = int(input())
+numar_introdus = n
+numar_intors = 0
+while(n > 0):
+    ultima_cifra = n % 10
+    numar_intors = numar_intors * 10 + ultima_cifra
+    n = n//10
+print(numar_introdus == numar_intors)

@@ -9,3 +9,8 @@
         Veti printa prima data: [1, 3, 4, 5, 5]
         Veti prina a doua oara: {1, 3, 4, 5}
 """
+while True:
+    command = input()
+    print(command)
+    if command.lower() == 'exit':
+        break

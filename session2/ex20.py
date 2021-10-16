@@ -16,9 +16,14 @@
             2: 'i'
         }
 """
-# string = input()
-# letters = list(string)
-# for x in enumerate(letters):
-#     print(x)
+value_input = input()
+key_input = 5
+d1 = {}
+for key in key_input:
+    d1.keys.append(key)
+print(d1)
 
-string = input()
+# values = []
+# for x in range(5):
+#     values.append(x*2)
+# print(values) -> [0, 2, 4, 6, 8]

@@ -13,3 +13,26 @@
         False
         False
 """
+
+
+# while True:
+#     comanda = input('>')
+#     numar = int(input(''))
+#     print(numar)
+#     if comanda.lower() == 'exit':
+#         break
+# print(bool(numar % 2 == 0))
+# command = ''
+# numar = int(input())
+# while command.lower() != 'exit':
+#     command = input()
+#     print(bool(numar % 2 == 0))
+
+comanda = input().split(',')
+
+for x in comanda:
+    if x != 'exit':
+        if int(x) % 2 == 0:
+            print('True')
+        else:
+            print('False')

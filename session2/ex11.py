@@ -12,7 +12,7 @@
         5
         cate un singur numar pe linie.
 """
-x = 15
+x = int(input())
 count = 0
 for i in range(x):
     if i % 2 == 1:

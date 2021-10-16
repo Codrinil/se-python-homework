@@ -19,5 +19,14 @@ l2 = ['a', 'b', 'c', 'd']
 # In varaibila d1 avem un dictionar gol
 d1 = {}
 
-# Afisam listele l1 si l2
-print(l1, l2)
+# # Afisam listele l1 si l2
+# print(d1)
+d1 = dict(zip(l1, l2))
+print(d1)
+
+for key in l1:
+    for value in l2:
+        d1[key] = value
+        l2.remove(value)
+        break
+print(d1)

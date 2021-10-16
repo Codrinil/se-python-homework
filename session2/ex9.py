@@ -14,8 +14,6 @@ x = int(x)
 # Iteram prin toate elementele listei oferite de functia range()
 ##count = 0
 for i in range(x):
-  # daca partea ramasa din impartirea lui 1 la 2 este 0 estre numar par
+  # daca partea ramasa din impartirea lui 1 la 2 este 0 este numar par
     if i % 2 == 0:
-      ##  count += 1
         print(i)
-##print(f" We have {count} even numbers from 0 to {x}")

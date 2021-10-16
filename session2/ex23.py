@@ -14,3 +14,8 @@
         Veti primi: 'cojoc'
         Veti printa: True
 """
+word = input()
+if word == word[::-1]:
+    print(True)
+else:
+    print(False)
