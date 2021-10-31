@@ -8,7 +8,7 @@
 
     La final, raspunsul trebuie sa fie:
     ('cmi2', 'cmi1')
-    
+
     Momentan el este:
     ('cmi1', 'cmi2')
 """
@@ -18,4 +18,5 @@ def func(param1, param2):
     return param1, param2
 
 
-print(func('cmi1', 'cmi2'))
+a, b = func('cmi1', 'cmi2')
+print(b, a)

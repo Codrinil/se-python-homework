@@ -9,10 +9,10 @@
 """
 
 
-def dec(func):
+def dec(f):
     def wrapper():
-        func()
-
+        print('cmi')
+        return f()
     return wrapper
 
 

@@ -11,3 +11,14 @@
         si definitia functiei)
         - hint: list comprehensions (google it if you don't know it already)
 """
+
+
+# def func(lista):
+#     element = [item+1 for item in lista]
+#     return element
+
+def func(lista):
+    return [item+1 for item in lista]
+
+
+print(func([1, 2, 3]))

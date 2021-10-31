@@ -8,6 +8,17 @@
 """
 
 
+def log_output(func):
+    with open('output11.data', 'a') as file:
+        file.write(func())
+        file.close()
+
 # decorate me
+
+
+@log_output
 def f():
     return "CMI"
+
+
+f()

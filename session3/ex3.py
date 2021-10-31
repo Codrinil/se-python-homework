@@ -12,4 +12,11 @@
 
 
 def func(x):
-    pass
+    list = []
+    while x > 0:
+        list.append(x-1)
+        x -= 1
+    print(list[::-1])
+
+
+print(func(5))

@@ -12,3 +12,11 @@
     Observatii:
         - functia trebuie sa aiba MAXIM 1 linie de cod ca si body
 """
+
+
+def complete_word(prefix=input(), sufix=input(), word=input()):
+    # def complete_word(prefix='a', sufix='b', word='x'):
+    return prefix+word+sufix
+
+
+print(complete_word())

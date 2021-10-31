@@ -19,3 +19,21 @@
         - veti primi input: 'cEVa1'
             ---> ceva1
 """
+
+
+def call_changers():
+    y = input()
+
+    def upper():
+        return y.upper()
+
+    def lower():
+        return y.lower()
+
+    if len(y) % 2 == 0:
+        return upper()
+    else:
+        return lower()
+
+
+print(call_changers())

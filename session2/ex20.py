@@ -14,16 +14,18 @@
             0: 'c',
             1: 'm',
             2: 'i'
-        }
+        }1
 """
-value_input = input()
-key_input = 5
-d1 = {}
-for key in key_input:
-    d1.keys.append(key)
-print(d1)
+value_input = 'cmi'
+key_input = 3
+i = 0
 
-# values = []
-# for x in range(5):
-#     values.append(x*2)
-# print(values) -> [0, 2, 4, 6, 8]
+dict_keys = []
+dict_value = []
+while key_input > i:
+    dict_keys.append(i)
+    i += 1
+for x in value_input:
+    dict_value.append(x)
+
+dictionar = dict(zip(dict_keys, dict_value))

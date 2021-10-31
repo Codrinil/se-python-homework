@@ -6,6 +6,12 @@
 """
 
 
+def deco(func):
+    functie = func()
+    print(functie.upper())
+
+
+@deco
 # decoarate me
 def f():
     return 'cmi'
