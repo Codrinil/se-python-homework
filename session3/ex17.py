@@ -19,3 +19,15 @@
             cmicmi
             b
 """
+
+
+def log_output(func):
+    with open('output11.data', 'a') as file:
+        file_content = file.read()
+        print(file_content)
+        file.write(func())
+        file.close()
+
+
+def functie():
+    print(x)
