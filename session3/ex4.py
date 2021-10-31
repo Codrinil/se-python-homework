@@ -40,15 +40,19 @@ def generate_random_str(str_length):
     return rand_str
 
 
-def add_sufix(sfx, pfx, func):
+def add_suffix(sfx, pfx, prefixed_str):
     count = 2
-    while count > 0:
-        if set(list(sfx)) and set(list(pfx)):
-            suffix = input('Give me another suffix \n')
-            count -= 1
-        else:
-            return add_prefix + sfx
+    while set(list(sfx)) and set(list(pfx)) and count > 0:
+        sfx = input('Give me another suffix \n')
+        count -= 1
+    if count == 0:
+        return prefixed_str
+    else:
+        return sfx + prefixed_str
 
 
-prefix = input('Give me an prefix\n')
 x = int(input('Give me a number to generate the random string\n'))
+prefix = input('Give me an prefix\n')
+suffix = input('Give me a suffix\n')
+
+print(add_suffix(suffix, prefix, add_prefix(prefix, generate_random_str(x))))
